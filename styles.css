@@ -10,11 +10,18 @@ body{
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+main{
+    margin-left: 120px;
+}
 a{
     color: rgb(61, 90, 109);
 }
 ul {
     list-style: none;
+}
+
+.bottoma-style:hover{
+  border-bottom: 1px solid rgb(61, 90, 109); ;
 }
 
 /* navBar */
@@ -90,7 +97,7 @@ figure {
 }
 
 .fig-text {
-    opacity: 80%;
+    /* opacity: 80%; */
     color: rgb(83, 79, 79);
 }
 .figtextextrastyle{
@@ -106,7 +113,7 @@ figure {
     flex-direction: column;
     justify-content: center;
     margin-left: 300px;
-    width: 50%;
+    width: 40%;
 }
 
 .mainareaheader {
@@ -158,6 +165,11 @@ figure {
     margin-top: 15px;
     color: rgb(75, 71, 71);
 }
+.article-bottom-link{
+    margin: 20px 0;
+    font-size: 10px;
+    color: rgb(93, 95, 97);;
+}
 
 
 /* aside */
@@ -190,4 +202,122 @@ figure {
     margin-left: 10px;
     font-size: 12px;
 
+}
+.article-gap{
+    height: auto;
+    width: 300px;
+    margin: 25px 0 25px 50px;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* GraphicImageDiv */
+.graphicImage{
+    width: 65%;
+    margin: 20px 200px 20px 200px;
+}
+.graphicImageGrid{
+    display:grid;
+   
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* background-color: blue; */
+}
+.graphicImg-style{
+    height: 150px;
+    width: 200px;
+}
+.graphicP-style{
+    margin-top: 25px;
+    font-size: 13px;
+}
+.graphicbottomp-style{
+    border-top: 1px solid black;    
+    font-size: 12px;
+    padding: 14px;
+}
+
+/* video and image */
+.embedded-video{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.videoandimgtext{
+    color: rgb(83, 79, 79);
+    font-size: 12px;
+}
+.embedded-img{
+    width: 55%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.embeddedimg-style{
+   /* width: 800px;
+   height: 400px; */
+   width: 100%;
+   height: 500px;
+}
+
+/* bottom-section */
+.bottom-section{
+    display:flex;
+    width: 87%;
+    margin-left: 10px;
+}
+
+.moreImageandArticle{
+    border-top: 1px solid black;
+    margin-left: 150px;
+    padding-left: 10px;
+}
+.moreImageandArticle2{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    /* padding-left: 3px; */
+}
+.image-section{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    
+}
+.editorimagesection{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.bottom-images{
+    height: 200px;
+    width:250px;
+    padding: 20px 20px 0 20px;
+}
+.bootomli1{
+    font-size: 8px;
+   
+}
+.bootomli2{
+    font-size: 12px;
+
+}
+.bootomli3{
+    font-size: 8px;
+}
+
+.bootomli1, .bootomli2,.bootomli3{
+    padding-left: 20px;
+}
+
+.link-section{
+    border-top: 1px solid black;
+    margin-left: 10px;
+    float: right;
+   
+}
+.plinksection{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    font-size: 16px;
 }
