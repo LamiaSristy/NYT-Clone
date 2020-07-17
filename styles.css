@@ -7,12 +7,14 @@ body{
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
 
-ul {
-    list-style: none;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(61, 90, 109);
+}
+ul {
+    list-style: none;
 }
 
 /* navBar */
@@ -156,6 +158,36 @@ figure {
     margin-top: 15px;
     color: rgb(75, 71, 71);
 }
-a{
-    color: rgb(61, 90, 109);
+
+
+/* aside */
+.asideflex-container{
+    /* align-items: flex-start;    */
+    margin-top: 600px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding-left: 20px;
+    float: right;
+    width: 300px;    
+}
+
+.aside-box{
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.p-aside{
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.asidebox-img{
+    height: 100px;
+    width: 100px;
+}
+.aside-text{
+    width:150px;
+    margin-left: 10px;
+    font-size: 12px;
+
 }
