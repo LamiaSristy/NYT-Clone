@@ -289,7 +289,7 @@ figure {
 }
 
 .bottom-images{
-    height: 200px;
+    height: 170px;
     width:250px;
     padding: 20px 20px 0 20px;
 }
@@ -338,3 +338,35 @@ figure {
 .footer-icon{
     padding-left: 50px;
 }
+
+/* bottom-links */
+.bottom-links{
+   margin-top: 20px;
+   margin-left: 150px;
+   border-top: 2px solid grey;
+   width: 80%;
+   display: inline-block;
+}
+.links-styles{   
+    display: flex;
+    font-size: 14px;
+    padding:15px ;
+}
+
+.endlink{
+    margin: 30px 20px;    
+    font-size: 10px;
+    padding-top: 10px;
+    border-top:1px solid rgb(187, 184, 184) ;
+}
+
+footer{
+    display: flex;    
+    height: 60px;  
+    padding-top: 10px;
+    padding-left: 400px;
+    font-size: 16px;
+    border-top: 1px solid black;
+}
+
+
