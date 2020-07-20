@@ -1,5 +1,5 @@
 * {
-    box-shadow: border-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -33,6 +33,15 @@ nav {
     padding-top: 10px;
     border-bottom: 1px solid rgb(187, 182, 182);
     background-color: white;    
+}
+
+h3{
+    margin-top: 15px;
+    /* color: rgb(75, 80, 80); */
+}
+
+h3, .articlegapP-style {
+    color: rgb(75, 80, 80);
 }
 
 .nylogo-style {
@@ -103,6 +112,7 @@ figure {
 .figtextextrastyle{
     font-size: 14px;
     color: rgb(184, 178, 178);
+   
 }
 /* mainArear Flex  */
 .mainareaflex-container{
@@ -137,23 +147,32 @@ figure {
 
 .main-icons {    
     align-content: flex-end;
+    /* margin-top: 10px; */
+    margin-bottom: -10px;
+    margin-left: 5px;
 }
 .mainareaheader-icon{
-    height:60px ;
-    width: 60px;
+    height:50px ;
+    width: 50px;
     border-radius: 100%;
-    background-color: rgb(216, 212, 212);
-    margin: 10px;
+    background-color: rgb(243, 239, 239);
+    margin-bottom: 10px;
     padding: 10px;
 }
 .shareicon{
-    height: 18px;
+    /* height: 18px; */
+    width: 15px;
 }
 .fbicon{
     height: 21px;
     width: 15px;
     padding-left:5px ;
 }
+.bookmarkicon, .commenticon{
+   height: 50px; 
+   padding: 5px;
+}
+
 /* article */
 .article-style{
     /* width: 45%; */
@@ -185,17 +204,18 @@ figure {
 
 .aside-box{
     display:flex;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.p-aside{
+.p-aside{    
     font-size: 12px;
     font-weight: bold;
     border-bottom: 1px solid black;
+    margin-bottom: 10px;
 }
 .asidebox-img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 .aside-text{
     width:150px;
@@ -207,10 +227,14 @@ figure {
     height: auto;
     width: 300px;
     margin: 25px 0 25px 50px;
-    padding: 15px 25px;
+    padding: 15px 35px;
     font-size: 16px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+.articlegapP-style{
+    margin-left: 35px;
+    font-size: 14px;
 }
 
 /* GraphicImageDiv */
@@ -225,6 +249,11 @@ figure {
     grid-template-rows: 25% 25% 25% 25%;
     /* background-color: blue; */
 }
+.graphicImageP-style{
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .graphicImg-style{
     height: 150px;
     width: 200px;
@@ -311,14 +340,14 @@ figure {
 
 .link-section{
     border-top: 1px solid black;
-    margin-left: 10px;
-    float: right;
-   
+    margin-left: 40px;  
+    align-content: flex-end;
+    padding-left: 25px;
 }
 .plinksection{
     margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid black;
+    /* padding: 15px 0; */
+    border-top: 1px solid rgb(184, 180, 180);
     font-size: 16px;
 }
 
@@ -343,17 +372,59 @@ figure {
 .bottom-links{
    margin-top: 20px;
    margin-left: 150px;
-   border-top: 2px solid grey;
+   border-top: 2px outset grey;
    width: 80%;
    display: inline-block;
+   padding-top: 15px;
+}
+.linktoHomePage{
+    float: right;
 }
 .links-styles{   
     display: flex;
     font-size: 14px;
-    padding:15px ;
+    padding: 15px ;
+    margin-left: -20px;
+    justify-content: space-between;
+}
+
+.linkcolumn-styles{
+    font-size: 12.5px;
+    margin: 10px;
+}
+
+.bottomlinksideBar-style{
+    /* background-color: grey; */
+    border-left: 1px solid rgb(187, 184, 184) ;
+   padding-left: 20px;
+}
+.bottomlinknytlogo{
+    
+    height: 10px;
+}
+.bottomlinksidebarlink-style{
+    margin: 10px;
+    font-size: 13px;
+}
+.bottomlinksidebaratag-style{
+    font-size: 10px;   
+    color: black;
+    
+}
+.space-style{
+    margin-top: 10px;
+}
+.space-style2{
+    padding-top: 12px;
+}
+.mobileapplink-style{
+    border-bottom:  1px solid rgb(187, 184, 184)  ;
+    padding-bottom: 10px;
 }
 
 .endlink{
+    display: flex;
+    justify-content: space-around;
     margin: 30px 20px;    
     font-size: 10px;
     padding-top: 10px;
