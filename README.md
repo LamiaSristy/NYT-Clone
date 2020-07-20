@@ -11,7 +11,7 @@
 
 [NYT-Clone](https://rawcdn.githack.com/LamiaSristy/nytimes-clone/7d2a29e01ee9a7318f301de67f95a5e568b3ee5b/index.html)
 
-## Authors
+## Author Details
 
 👤 **Lamia Sristy**
 
