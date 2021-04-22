@@ -4,7 +4,7 @@
 <img src="images/nyt.png">
 ## Built With
 
-- HTML
+- HTML5
 - CSS
 
 ## Live Demo
